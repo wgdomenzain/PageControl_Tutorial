@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+//Variables
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController<UIScrollViewDelegate>
+@property NSUInteger uiPageIndex;
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (strong, nonatomic) IBOutlet UIPageControl *pageCtrl;
 
 
 @end

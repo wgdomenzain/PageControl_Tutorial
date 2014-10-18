@@ -14,6 +14,14 @@
 		D102A0D119F2ECDC001C09A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D102A0D019F2ECDC001C09A6 /* Images.xcassets */; };
 		D102A0D419F2ECDC001C09A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D102A0D219F2ECDC001C09A6 /* LaunchScreen.xib */; };
 		D102A0E019F2ECDC001C09A6 /* PageControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D102A0DF19F2ECDC001C09A6 /* PageControlTests.m */; };
+		D102A0EC19F2ED00001C09A6 /* img_120x120.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D102A0EA19F2ED00001C09A6 /* img_120x120.jpg */; };
+		D102A0ED19F2ED00001C09A6 /* img_180x180.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D102A0EB19F2ED00001C09A6 /* img_180x180.jpg */; };
+		D102A0F019F2EE1E001C09A6 /* img_png120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = D102A0EE19F2EE1E001C09A6 /* img_png120x120.png */; };
+		D102A0F119F2EE1E001C09A6 /* img_png180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = D102A0EF19F2EE1E001C09A6 /* img_png180x180.png */; };
+		D102A0F519F2F040001C09A6 /* family01.png in Resources */ = {isa = PBXBuildFile; fileRef = D102A0F219F2F040001C09A6 /* family01.png */; };
+		D102A0F619F2F040001C09A6 /* flinstones01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D102A0F319F2F040001C09A6 /* flinstones01.jpg */; };
+		D102A0F719F2F040001C09A6 /* simpsons1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D102A0F419F2F040001C09A6 /* simpsons1.jpeg */; };
+		D102A0F919F2F4E4001C09A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D102A0F819F2F4E4001C09A6 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,14 @@
 		D102A0D919F2ECDC001C09A6 /* PageControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D102A0DE19F2ECDC001C09A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D102A0DF19F2ECDC001C09A6 /* PageControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageControlTests.m; sourceTree = "<group>"; };
+		D102A0EA19F2ED00001C09A6 /* img_120x120.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_120x120.jpg; sourceTree = "<group>"; };
+		D102A0EB19F2ED00001C09A6 /* img_180x180.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_180x180.jpg; sourceTree = "<group>"; };
+		D102A0EE19F2EE1E001C09A6 /* img_png120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_png120x120.png; sourceTree = "<group>"; };
+		D102A0EF19F2EE1E001C09A6 /* img_png180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_png180x180.png; sourceTree = "<group>"; };
+		D102A0F219F2F040001C09A6 /* family01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = family01.png; sourceTree = "<group>"; };
+		D102A0F319F2F040001C09A6 /* flinstones01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flinstones01.jpg; sourceTree = "<group>"; };
+		D102A0F419F2F040001C09A6 /* simpsons1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = simpsons1.jpeg; sourceTree = "<group>"; };
+		D102A0F819F2F4E4001C09A6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D102A0F919F2F4E4001C09A6 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 		D102A0B719F2ECDC001C09A6 = {
 			isa = PBXGroup;
 			children = (
+				D102A0F819F2F4E4001C09A6 /* QuartzCore.framework */,
 				D102A0C219F2ECDC001C09A6 /* PageControl */,
 				D102A0DC19F2ECDC001C09A6 /* PageControlTests */,
 				D102A0C119F2ECDC001C09A6 /* Products */,
@@ -96,6 +114,7 @@
 		D102A0C319F2ECDC001C09A6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D102A0E919F2ECF5001C09A6 /* img */,
 				D102A0C419F2ECDC001C09A6 /* Info.plist */,
 				D102A0C519F2ECDC001C09A6 /* main.m */,
 			);
@@ -117,6 +136,20 @@
 				D102A0DE19F2ECDC001C09A6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D102A0E919F2ECF5001C09A6 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				D102A0F219F2F040001C09A6 /* family01.png */,
+				D102A0F319F2F040001C09A6 /* flinstones01.jpg */,
+				D102A0F419F2F040001C09A6 /* simpsons1.jpeg */,
+				D102A0EE19F2EE1E001C09A6 /* img_png120x120.png */,
+				D102A0EF19F2EE1E001C09A6 /* img_png180x180.png */,
+				D102A0EA19F2ED00001C09A6 /* img_120x120.jpg */,
+				D102A0EB19F2ED00001C09A6 /* img_180x180.jpg */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +232,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D102A0ED19F2ED00001C09A6 /* img_180x180.jpg in Resources */,
+				D102A0EC19F2ED00001C09A6 /* img_120x120.jpg in Resources */,
+				D102A0F519F2F040001C09A6 /* family01.png in Resources */,
+				D102A0F719F2F040001C09A6 /* simpsons1.jpeg in Resources */,
+				D102A0F019F2EE1E001C09A6 /* img_png120x120.png in Resources */,
+				D102A0F619F2F040001C09A6 /* flinstones01.jpg in Resources */,
+				D102A0F119F2EE1E001C09A6 /* img_png180x180.png in Resources */,
 				D102A0CF19F2ECDC001C09A6 /* Main.storyboard in Resources */,
 				D102A0D419F2ECDC001C09A6 /* LaunchScreen.xib in Resources */,
 				D102A0D119F2ECDC001C09A6 /* Images.xcassets in Resources */,
@@ -343,6 +383,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = PageControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +394,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = PageControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
